@@ -23,15 +23,15 @@ function sifreUret($uzunluk, $tip=5)
  {
 
 if ($tip==1)
-$sifre.=chr(rand(48,57));//0-9
+$sifre.=chr(rand(48,57));
 
 
     elseif($tip==2)
-$sifre.=chr(rand(65,90));//A-Z
+$sifre.=chr(rand(65,90));
 
 
 elseif($tip==3)
-$sifre.=chr(rand(97,122));//a-z
+$sifre.=chr(rand(97,122));
 
 
 elseif($tip==4)
